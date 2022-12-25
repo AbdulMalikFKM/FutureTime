@@ -1,0 +1,12 @@
+<meta>
+    <script src="client.lua" type="client" cache="false"/>
+    
+    <file src="files/score.png" />
+    <file src="files/admin.png" />
+    <file src="files/adminduty.png" />
+    <file src="files/bar.png" />
+    <file src="files/player.png" />
+    
+    <file src="files/font.ttf" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

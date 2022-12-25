@@ -1,0 +1,5 @@
+<meta>
+	<info author="Dharma" type="script" description="Government Security System" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

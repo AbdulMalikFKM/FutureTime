@@ -1,0 +1,5 @@
+<meta>
+	<info author="[A]Orange" version="0.1" type="script" name="Motion Blur Shader" />
+	<script src="motion_c.lua" type="client" />
+	<file src="motion.fx" />
+</meta>

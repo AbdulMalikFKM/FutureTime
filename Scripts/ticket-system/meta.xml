@@ -1,0 +1,13 @@
+<meta>
+	<info author="Chuevo" type="script" description="Ticket System"/>
+
+	<script src="s_vehticket.lua" type="server" />
+	<script src="c_vehticket.lua" type="client" />
+	
+	    <file src="files/parking.png"/>
+    <file src="files/traffic.png"/>
+
+    <file src="files/sign.mp3"/>
+    <file src="files/paper-rip.mp3"/>
+		<min_mta_version client="1.3.0-9.04431" />
+</meta>

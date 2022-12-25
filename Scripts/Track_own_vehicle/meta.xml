@@ -1,0 +1,11 @@
+﻿<meta>
+  <info author="Dharma." type="script" description="Track Vehicle Grape RP Server" />
+
+  <script src="server.lua" type="server" cache="false"/>
+  <script src="c.lua" type="client" cache="false"/>
+  <file src="select.mp3" type="client" />
+  <file src="0.png" type="client" />
+  <file src="beroadd.png" type="client" />
+  <file src="test.png" type="client" />
+  <file src="topwin.png" type="client" />
+</meta>

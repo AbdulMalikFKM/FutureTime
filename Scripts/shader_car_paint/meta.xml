@@ -1,0 +1,10 @@
+<meta>
+	<info name="dl_carPaint" version="0.0.3" author="Ren712" type="script" />
+	<min_mta_version client="1.5.0" server="1.5.0" />
+	<script src="c_car_paint.lua" type="client" />
+	<script src="c_switch.lua" type="client" />
+	<script src="c_gtasa_light_fix.lua" type="client" />
+	<file src="fx/car_paint.fx" type="client" />
+	<file src="fx/car_paint_dl.fx" type="client" />
+	<file src="fx/mta-helper.fx" type="client" />
+</meta>

@@ -1,0 +1,116 @@
+<meta>
+	<info author="UG MTA Scripting Team" type="script" description="Spike System"/>
+
+	<script src="s_job_system.lua" type="server"/>
+	<script src="c_job_system.lua" type="client"/>
+	<!--<script src="s_job_commands.lua" type="server"/>-->
+	
+	<script src="s_job_framework.lua" type="server"/>
+	<script src="c_job_framework.lua" type="client"/>
+	
+	<!--
+	<script src="trucker/s_trucker_job.lua" type="server"/>
+	<script src="trucker/c_trucker_job.lua" type="client"/>
+	-->
+<!-- By Dharma -->
+    <file src="windowcleaner/window.png" />
+    <file src="windowcleaner/dirt.png" />
+    <file src="windowcleaner/crosshair.png" />
+    <script type="client" src="windowcleaner/sourceC.lua" cache="false" />
+    <script type="server" src="windowcleaner/sourceS.lua" cache="false" />
+	
+	<file src="sweeper/files/water.png" />
+    <file src="sweeper/files/sewage.png" />
+    <script type="client" src="sweeper/sourceC.lua" cache="false" />
+    <script type="shared" src="sweeper/sourceG.lua" cache="false" />
+    <script type="server" src="sweeper/sourceS.lua" cache="false" />
+
+	<!--
+	<file src="icecream/files/chocolate.png" />
+    <file src="icecream/files/vanilla.png" />
+    <file src="icecream/files/strawberry.png" />
+    <file src="icecream/files/lemon.png" />
+    <file src="icecream/files/greenapple.png" />
+    <file src="icecream/files/mango.png" />
+    
+    <file src="icecream/files/cone1.png" />
+    <file src="icecream/files/cone2.png" />
+    
+    <file src="icecream/files/texture.jpg" />
+    
+    <script src="icecream/sourceC.lua" type="client" cache="false" />
+    <script src="icecream/sourceG.lua" type="shared" cache="false" />
+    <script src="icecream/utilsC.lua" type="client" cache="false" />
+	-->
+    <file src="storekeeper/files/sign.mp3" />
+    <file src="storekeeper/files/sticker.png" />
+    <file src="storekeeper/files/notes.png" />
+    <file src="storekeeper/files/cheerybox01.png" />
+    <file src="storekeeper/files/texturechanger.fx" />
+    <file src="storekeeper/files/stripe.png" />
+    <file src="storekeeper/files/moveCrate.png" />
+    <file src="storekeeper/files/putDownCrate.png" />
+    <file src="storekeeper/files/pickUpCrate.png" />
+    <file src="storekeeper/files/selection.png" />
+    <file src="storekeeper/files/pickUpCarrier.png" />
+    <file src="storekeeper/files/vignette.png" />
+    <file src="storekeeper/files/sign3.png" />
+    <file src="storekeeper/files/sign2.png" />
+    <file src="storekeeper/files/sign1.png" />
+	
+	<file src="storekeeper/files/CourierNew.ttf" />
+    <file src="storekeeper/files/VT323.ttf" />
+    <file src="storekeeper/files/hand.otf" />
+    <file src="storekeeper/files/ocr.ttf" />
+    <file src="storekeeper/files/lunabar.ttf" />
+    <file src="storekeeper/files/Roboto-Bold.ttf" />
+    <file src="storekeeper/files/Roboto-Regular.ttf" />
+	
+	<script type="server" src="storekeeper/sourceS.lua" />
+    <script type="client" src="storekeeper/sourceC.lua" cache="false" />
+	<!-- -->
+	
+	<script src="fishing/s_fishing_job.lua" type="server"/>
+	<script src="fishing/c_fishing_job.lua" type="client"/>
+	
+	<script src="photographer/s_photographer_job.lua" type="server"/>
+	<script src="photographer/c_photographer_job.lua" type="client"/>
+
+	<script src="mechanic/s_mechanic_job.lua" type="server"/>
+	<script src="mechanic/s_mechanic_previews.lua" type="server"/>
+	<script src="mechanic/c_mechanic_job.lua" type="client"/>
+	
+	<script src="taxi/s_taxi_job.lua" type="server"/>
+	<script src="taxi/c_taxi_job.lua" type="client"/>
+	
+	<script src="taximeter/g_taximeter.lua" type="server"/>
+	<script src="taximeter/g_taximeter.lua" type="client"/>
+	<script src="taximeter/s_taximeter.lua" type="server"/>
+	<script src="taximeter/c_taximeter.lua" type="client"/>	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+
+	<script src="bus/g_bus_routes.lua" type="client"/>
+	<script src="bus/g_bus_routes.lua" type="server"/>
+	<script src="bus/c_bus_job.lua" type="client"/>
+	<script src="bus/s_bus_job.lua" type="server"/>
+	
+	<script src="locksmith/s_locksmith_job.lua" type="server"/>
+	<script src="locksmith/c_locksmith_job.lua" type="client"/>
+	<export function="fetchJobInfoForOnePlayer" type="server"/>
+
+	<script src="jobs_g.lua" type="client"/>
+	<script src="jobs_g.lua" type="server"/>
+
+	<export function="getJobTitleFromID" type="server"/>
+	<export function="getJobTitleFromID" type="client"/>
+	
+	<export type="client" function="getCurrentInteractionList" />
+	<export type="client" function="getCurrentInteractionListsweeper" />
+	<export type="client" function="getElevatorID" />
+	<min_mta_version client="1.3.0-9.04431" />
+    <download_priority_group>-55</download_priority_group>
+</meta>

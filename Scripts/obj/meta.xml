@@ -1,0 +1,11 @@
+<meta>
+    <file src="files/transportcart.col" />
+    <file src="files/transportcart.dff" />
+    <file src="files/transportcart.txd" />
+    <file src="files/platform.col" />
+    <file src="files/platform.dff" />
+    <file src="files/platform.txd" />
+    
+    <script type="client" src="c.lua" cache="false" />
+    
+</meta>

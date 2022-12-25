@@ -1,0 +1,5 @@
+<meta>
+<info author="Dharma" type="script" description="Redeem Code For Grape RolePlays Server" />
+<script src="c.lua" type="client" />
+<script src="s.lua" tupe="server" />
+</meta>

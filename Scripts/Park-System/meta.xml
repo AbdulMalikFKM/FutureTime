@@ -1,0 +1,6 @@
+﻿<meta>
+  <info author="Dharma." type="script" description="Park System" />
+
+  <script src="s.lua" type="server" cache="false"/>
+  <script src="c.lua" type="client" cache="false"/>
+</meta>

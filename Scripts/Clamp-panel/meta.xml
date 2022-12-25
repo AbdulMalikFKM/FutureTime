@@ -1,0 +1,8 @@
+﻿<meta>
+    <script src="s_C.lua" type="client" />
+	<script src="s_S.lua" type="server" />
+	<file src="objeto/trava.dff" />
+	<file src="objeto/trava.txd" />
+	<file src="fonts/Roboto.ttf" />
+	<file src="fonts/RobotoB.ttf" />
+</meta>

@@ -1,0 +1,5 @@
+﻿<meta>
+    <script src="s_C.lua" type="client" />
+	<file src="objeto/trava.dff" />
+	<file src="objeto/trava.txd" />
+</meta>

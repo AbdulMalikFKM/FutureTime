@@ -1,0 +1,31 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Faction System"/>
+	
+	<script src="s_faction_system.lua" type="server" />
+	<script src="c_faction_system.lua" type="client" />
+	
+	<script src="s_faction_admin.lua" type="server" />
+	<script src="c_faction_admin.lua" type="client" />
+	<!--
+	<file src="files/add.png" type="client" />
+	<file src="files/duty.png" type="client" />
+	<file src="files/editduty.png" type="client" />
+	<file src="files/home.png" type="client" />
+	<file src="files/kick.png" type="client" />
+	<file src="files/leader.png" type="client" />
+	<file src="files/member.png" type="client" />
+	<file src="files/members.png" type="client" />
+	<file src="files/menu_car.png" type="client" />
+	<file src="files/minus.png" type="client" />
+	<file src="files/offline.png" type="client" />
+	<file src="files/online.png" type="client" />
+	<file src="files/other.png" type="client" />
+	<file src="files/plus.png" type="client" />
+	<file src="files/rank.png" type="client" />
+	<file src="files/ranks.png" type="client" />
+	<file src="files/stat_users.png" type="client" />
+	<file src="files/vehicles.png" type="client" />
+	<file src="files/vehicless.png" type="client" />
+	<file src="files/walkietalkie.png" type="client" />
+	!-->
+</meta>
